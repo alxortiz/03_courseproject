@@ -15,7 +15,7 @@ Data:
     2. X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
     3. Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
 
-  Train Data
+* Train Data
     1. subject_train.txt: 7352 rows, 1 column with subjectID
     2. X_train.txt: 7352 rows, with 561 columns (defined in features.txt)
     3. Y_train.txt: 7352 rows, 1 column with activity label (defined in activity_lables.txt)
@@ -23,11 +23,12 @@ Data:
 The script then merges, transforms and summarizes the data, according to the project steps:
 
 1. Merge the training and the test sets to create one data set.
-1.1. Combine test and training data
-	a) combine subject_test.txt and subject_train.txt
-	b) combine X_test.txt and X_train.txt
-	c) combine Y_test.txt and Y_train.txt
-1.2. Merges, subject, X and Y files to create single data set
+
+Combine test and training data
+* combine subject_test.txt and subject_train.txt
+* combine X_test.txt and X_train.txt
+* combine Y_test.txt and Y_train.txt
+Merges, subject, X and Y files to create single data set
 
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 2.1. Select fields with mean and stddev
