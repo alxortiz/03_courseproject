@@ -1,4 +1,4 @@
-Data Dictionary
+#Data Dictionary
 
 1.  Source Files
 
@@ -6,19 +6,14 @@ Data Dictionary
 
         1.  activity\_labels.txt: 6 rows, 2 columns
 
-> ActivityID Activity
->
-> 1 WALKING
->
-> 2 WALKING\_UPSTAIRS
->
-> 3 WALKING\_DOWNSTAIRS
->
-> 4 SITTING
->
-> 5 STANDING
->
-> 6 LAYING
+                   ActivityID    Activity
+                 |-----------|--------------------------
+                       1       WALKING
+                       2       WALKING_UPSTAIRS
+                       3       WALKING_DOWNSTAIRS
+                       4       SITTING
+                       5       STANDING
+                       6       LAYING
 
 1.  features.txt: 561 rows, 2 columns
 
