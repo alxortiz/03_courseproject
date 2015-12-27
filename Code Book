@@ -1,10 +1,10 @@
 #Data Dictionary
 
-1.  Source Files
+_1.  Source Files
 
-    1.  Glossaries:
+    __1.1.  Glossaries:
 
-        1.  activity\_labels.txt: 6 rows, 2 columns
+        ___1.1.1.  activity\_labels.txt: 6 rows, 2 columns
 
                    ActivityID    Activity
                  |-----------|--------------------------
