@@ -1,9 +1,9 @@
 # 03_courseproject
 Getting and Cleaning Data - Course Project
 
-## This file explains how the script run_analysis.R was created, based up the basic course project intructions.
+This file explains how the script run_analysis.R was created, based up the basic course project intructions.
 
-## The source data was first reviewed/analysed, to identify and understand the relationship among 8 source tables
+The source data was first reviewed/analysed, to identify and understand the relationship among 8 source tables
 
 ### Glossaries:
 ####activity_labels.txt: 6 rows, 2 columns (activity ID, activity description)
