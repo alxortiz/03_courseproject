@@ -16,9 +16,9 @@ Data:
     3. Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
 
   Train Data
-    subject_train.txt: 7352 rows, 1 column with subjectID
-    X_train.txt: 7352 rows, with 561 columns (defined in features.txt)
-    Y_train.txt: 7352 rows, 1 column with activity label (defined in activity_lables.txt)
+    1. subject_train.txt: 7352 rows, 1 column with subjectID
+    2. X_train.txt: 7352 rows, with 561 columns (defined in features.txt)
+    3. Y_train.txt: 7352 rows, 1 column with activity label (defined in activity_lables.txt)
 
 The script then merges, transforms and summarizes the data, according to the project steps:
 
