@@ -581,35 +581,30 @@ Data Dictionary
                  | 560       | angle(Y,gravityMean)                 |
                  | 561       | angle(Z,gravityMean)                 |
 
-1.  Data Tables
+    1.2  Data Tables
 
-    1.  Test Data
+       1.2.2  Test Data
 
-> \* subject\_test.txt: 2947 rows, 1 column with subjectID
->
-> \* X\_test.txt: 2947 rows, with 561 columns (defined in features.txt)
->
-> \* Y\_test.txt: 2947 rows, 1 column with activity label (defined in activity\_lables.txt)
->
-> 1.2.2. Train Data
->
-> \* subject\_train.txt: 7352 rows, 1 column with subjectID
->
-> \* X\_train.txt: 7352 rows, with 561 columns (defined in features.txt)
->
-> \* Y\_train.txt: 7352 rows, 1 column with activity label (defined in activity\_lables.txt)
+              * subject_test.txt: 2947 rows, 1 column with subjectID
+              * X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
+              * Y_test.txt: 2947 rows, 1 column with activity label (defined in activity\_lables.txt)
+
+       1.2.2. Train Data
+
+              * subject_train.txt: 7352 rows, 1 column with subjectID
+              * X_train.txt: 7352 rows, with 561 columns (defined in features.txt)
+              * Y_train.txt: 7352 rows, 1 column with activity label (defined in activity\_lables.txt)
 
 2. Data Transformations
 
-See README.md
+   See README.md
 
-1.  Tidy.txt
+3.  Tidy.txt
 
-> 11880 rows (30 Subjects x 6 activities x 66 features relating to mean or standard deviation)
->
-> 4 Columns:
->
-> \* Subject ID ( 1 – 30)
+    * 11880 rows (30 Subjects x 6 activities x 66 features relating to mean or standard deviation)
+    * 4 Columns:
+
+        ** Subject ID ( 1 – 30)
 >
 > \* Activity (se activity\_labels.txt, above)
 >
