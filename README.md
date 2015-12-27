@@ -5,15 +5,15 @@ This file explains how the script run_analysis.R was created, based up the basic
 
 The source data was first reviewed/analysed, to identify and understand the relationship among 8 source tables
 
-### Glossaries:
-####activity_labels.txt: 6 rows, 2 columns (activity ID, activity description)
-####features.txt: 561 rows, 2 column (feature ID, feature short description)
+Glossaries:
+* activity_labels.txt: 6 rows, 2 columns (activity ID, activity description)
+* features.txt: 561 rows, 2 column (feature ID, feature short description)
 
-###Data:
-####  Test Data
-#####    subject_test.txt: 2947 rows, 1 column with subjectID
-#####    X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
-#####    Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
+Data:
+* Test Data
+    1. subject_test.txt: 2947 rows, 1 column with subjectID
+    2. X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
+    3. Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
 
   Train Data
     subject_train.txt: 7352 rows, 1 column with subjectID
