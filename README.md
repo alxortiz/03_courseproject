@@ -1,18 +1,19 @@
 # 03_courseproject
 Getting and Cleaning Data - Course Project
-This file explains how the script run_analysis.R was created, based up the basic course project intructions, below:
 
-The source data was first reviewed/analysed, to identify and understand the relationship among 8 source tables
+## This file explains how the script run_analysis.R was created, based up the basic course project intructions.
 
-Glossaries:
-activity_labels.txt: 6 rows, 2 columns (activity ID, activity description)
-features.txt: 561 rows, 2 column (feature ID, feature short description)
+## The source data was first reviewed/analysed, to identify and understand the relationship among 8 source tables
 
-Data:
-  Test Data
-    subject_test.txt: 2947 rows, 1 column with subjectID
-    X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
-    Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
+### Glossaries:
+####activity_labels.txt: 6 rows, 2 columns (activity ID, activity description)
+####features.txt: 561 rows, 2 column (feature ID, feature short description)
+
+###Data:
+####  Test Data
+#####    subject_test.txt: 2947 rows, 1 column with subjectID
+#####    X_test.txt: 2947 rows, with 561 columns (defined in features.txt)
+#####    Y_test.txt: 2947 rows, 1 column with activity label (defined in activity_lables.txt)
 
   Train Data
     subject_train.txt: 7352 rows, 1 column with subjectID
