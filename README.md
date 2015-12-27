@@ -24,12 +24,12 @@ Data:
 
 1. Merge the training and the test sets to create one data set.
 
-   Combine test and training data
+   Combines test and training data
     * combine subject_test.txt and subject_train.txt
     * combine X_test.txt and X_train.txt
     * combine Y_test.txt and Y_train.txt
 
-Merges, subject, X and Y files to create single data set
+    Merges, subject, X and Y files to create single data set
 
 2. Extract only the measurements on the mean and standard deviation for each measurement. 
 2.1. Select fields with mean and stddev
